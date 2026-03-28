@@ -7,7 +7,6 @@ This is my personal portfolio website built to showcase my skills, projects, and
 ## 🚀 Live Demo
 
 👉 [View Portfolio](https://krishna-2013.github.io/Personal-Portfolio/)
-*(Replace with your actual deployed link — if you don’t have one yet, fix that. A portfolio without a live link is weak.)*
 
 ---
 
