@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krishna - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="utils.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: var(--bg-primary-color);
+        color: var(--text-primary-color);
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: var(--bg-secondery-color);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 var(--space-lg);
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: var(--text-primary-color);
+      }
+
+      nav ul li a:hover {
+        text-decoration: none;
+        color: var(--text-hover-color);
+        font-size: 1.01rem;
+      }
+
+      main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: var(--space-7xl) var(--space-2xl) var(--space-5xl)
+          var(--space-2xl);
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px 0;
+      }
+
+      .firstSection > div {
+        width: 30%;
+      }
+
+      .leftSection {
+        font-size: 2.5rem;
+      }
+
+      .leftSection button {
+        padding: 12px;
+        background-color: #1e2167;
+        color: var(--text-primary-color);
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+        margin-top: var(--space-2xl);
+      }
+
+      .leftSection button a {
+        color: var(--text-primary-color);
+        text-decoration: none;
+      }
+
+      .leftSection button a:hover {
+        color: var(--text-hover-color);
+      }
+
+      .rightSection img {
+        width: 80%;
+      }
+
+      #element {
+        color: var(--text-secondery-color);
+      }
+
+      .secondSection {
+        max-width: 80vw;
+        height: 80vh;
+        margin: auto;
+      }
+
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+
+      .secondSection .box {
+        background: var(--bg-box-color);
+        width: 77vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: var(--bg-box-color);
+        margin: 0 120px;
+      }
+
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -9px;
+      }
+
+      .footer {
+        background-color: var(--bg-footer-color);
+        height: 233px;
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul {
+        list-style: none;
+      }
+
+      .footer ul li {
+        margin: 13px;
+      }
+
+      .footer ul li a {
+        color: var(--text-primary-color);
+        text-decoration: none;
+      }
+
+      .footer ul li a:hover {
+        color: var(--text-hover-color);
+      }
+
+      .footer > div {
+        width: 233px;
+      }
+
+      .footer-rights {
+        text-align: center;
+        background-color: var(--bg-footer-color);
+        padding: var(--space-lg);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Krishna's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Krishna</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button><a href="https://github.com/Krishna-2013" target="_blank">Visit My GitHub</a></button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img src="/youtube.png" alt="" class="image-top" />
+            <div class="vertical-title">
+              YouTube content creator (2022-2024)
+            </div>
+            <div class="vertical-desc">
+              YouTube content creator focused on mobile tips, settings, and tech
+              tutorials that help users improve their device experience.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="music.png" alt="" class="image-top" />
+            <div class="vertical-title">Lofi Song creator (2024-2025)</div>
+            <div class="vertical-desc">
+              Reimagine popular Hindi, Bangla, and English songs into lofi
+              soundscapes—slowing them down, reshaping their mood, and giving
+              them a completely new emotional feel.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="python.png" alt="" class="image-top" />
+            <div class="vertical-title">Python Developer (Since: 2025)</div>
+            <div class="vertical-desc">
+              Skilled in Python with experience in problem-solving, automation,
+              and core concepts like OOP and data structures. Focused on writing
+              clean, efficient code and building practical projects.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="html.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (Since: 2025)</div>
+            <div class="vertical-desc">
+              Built structured web pages using HTML5, applying semantic tags,
+              forms, and media elements while maintaining clean, accessible
+              markup.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="backend.png" alt="" class="image-top" />
+            <div class="vertical-title">Backend Developer</div>
+            <div class="vertical-desc">Learning...</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Krishna's Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Coppyright &#169; www.KrishnasPortfolio.com | All rights reserved
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Video Editor",
+          "Web Designer",
+          "Content Creator",
+          "Gammer",
+          "Web Developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

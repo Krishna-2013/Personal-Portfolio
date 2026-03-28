@@ -1,0 +1,66 @@
+:root {
+  /* background Colors */
+  --bg-primary-color: rgb(0, 0, 33);
+  --bg-secondery-color : rgb(49, 49, 67);
+  --bg-box-color : white;
+  --bg-footer-color : #0e0e1a;
+
+
+  /* Text colors */
+  --text-primary-color: #f0f0f0;
+  --text-secondery-color: rgb(170, 107, 228);
+  --text-hover-color: rgb(153, 153, 226);
+
+
+  /* Spacing */
+  --space-xs : 4px;
+  --space-sm : 8px;
+  --space-md : 16px;
+  --space-lg : 24px;
+  --space-xl : 32px;
+  --space-2xl : 40px;
+  --space-3xl : 48px;
+  --space-4xl : 56px;
+  --space-5xl : 64px;
+  --space-6xl : 72px;
+  --space-7xl : 80px;
+  
+
+  /* Border Colors*/
+  --border-primary-color : #333333;
+  
+
+  /* Border Raduis */
+  --border-radius--xs : 4px;
+  --border-radius--sm : 8px;
+  --border-radius--md : 16px;
+  --border-radius--lg : 24px;
+  --border-radius--xl : 32px;
+  --border-radius--2xl : 40px;
+  --border-radius--3xl : 48px;
+
+
+}
+
+.purple {
+  color: var(--text-secondery-color);
+}
+
+.text-gray {
+  color: gray;
+}
+
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
